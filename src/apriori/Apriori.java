@@ -148,6 +148,7 @@ public class Apriori {
     return candidate;
   }
   
+  
   private ArrayList<ItemList> generateNextListFromCandidate(ArrayList<ItemList> candidate) {
     ArrayList<ItemList> list = new ArrayList<ItemList>();
     for (int i = 0; i < candidate.size(); i++) {
